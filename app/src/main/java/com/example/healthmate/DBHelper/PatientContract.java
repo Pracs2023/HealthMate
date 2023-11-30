@@ -9,11 +9,11 @@ public final class PatientContract {
     }
 
     /* Inner class that defines the table contents */
-    public static class PateintDetail implements BaseColumns {
+    public static class PatientDetail implements BaseColumns {
         public static final String TABLE_NAME = "patients";
-        public static final String COLUMN_NAME = "name";
         public static final String COLUMN_USER = "username";
         public static final String COLUMN_AGE = "age";
         public static final String COLUMN_PASSWORD = "password";
     }
+
 }
